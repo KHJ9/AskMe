@@ -6,7 +6,7 @@ import os, sys, urllib.request, json, re
 
 client_id = "ABu4jsdB34K0KN1lSS_p"
 client_secret = "6FJFuMHn0d"
-input_text = "전화기"
+input_text = "종이"
 encText = urllib.parse.quote(input_text)
 url = "https://openapi.naver.com/v1/search/encyc.json?display=1&query=" + encText # json 결과
 # url = "https://openapi.naver.com/v1/search/blog.xml?query=" + encText # xml 결과
